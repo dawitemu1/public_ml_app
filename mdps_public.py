@@ -247,7 +247,7 @@ if (selected == "Parkinsons Prediction"):
 
 
     # Loan Repayment Prediction Page
-  if (selected == "Loan Repayment Prediction"):
+if (selected == "Loan Repayment Prediction"):
     
     # page title
     st.title("Predicting Whether an Applicant is Capable to Repayment of a Loan Using Random forest and NN and Deploy")
