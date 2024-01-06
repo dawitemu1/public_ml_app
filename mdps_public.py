@@ -251,7 +251,7 @@ if (selected == "Parkinsons Prediction"):
 if (selected == "Loan Repayment prediction"):
     
     # page title
-    st.title("Predicting Whether an Applicant is Capable to Repayment of a Loan Using Random forest and NN and Deploy")
+    st.title("Predicting Loan Repayment ML")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
