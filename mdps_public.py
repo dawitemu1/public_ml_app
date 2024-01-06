@@ -28,7 +28,7 @@ with st.sidebar:
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
                            'Parkinsons Prediction',
-                          'Loan Repayment prediction'],
+                          'Loan Repayment Prediction'],
                           icons=['activity','heart','person','bank'],
                           default_index=0)
     
@@ -248,7 +248,7 @@ if (selected == "Parkinsons Prediction"):
 
 
     # Loan Repayment Prediction Page
-if (selected == "Loan Repayment prediction"):
+if (selected == "Loan Repayment Prediction"):
     
     # page title
     st.title("Predicting Loan Repayment ML")
