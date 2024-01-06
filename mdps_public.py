@@ -327,13 +327,13 @@ if (selected == "Loan Repayment Prediction"):
     parkinsons_diagnosis = ''
     
     # creating a button for Prediction    
-    if st.button("Loan status"):
+    if st.button("Loan Repayment status"):
         parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
         
         if (parkinsons_prediction[0] == 1):
-          parkinsons_diagnosis = "Accepted"
+          parkinsons_diagnosis = "Loan Repaid Successfully"
         else:
-          parkinsons_diagnosis = "Rejected"
+          parkinsons_diagnosis = "Loan Default or Not Repaid"
         
     st.success(parkinsons_diagnosis)
 
