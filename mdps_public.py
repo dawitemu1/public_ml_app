@@ -29,7 +29,7 @@ with st.sidebar:
                            'Heart Disease Prediction',
                            'Parkinsons Prediction',
                           'Loan Repayment prediction'],
-                          icons=['activity','heart','person','loan'],
+                          icons=['activity','heart','person','bank'],
                           default_index=0)
     
     
