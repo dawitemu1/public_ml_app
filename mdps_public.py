@@ -30,7 +30,7 @@ with st.sidebar:
                            'Parkinsons Prediction',
                           'Loan Repayment Prediction',
                           'breast cancer'],
-                          icons=['activity','heart','person','bank','breast'],
+                          icons=['activity','heart','person','bank','women'],
                           default_index=0)
     
     
@@ -344,7 +344,7 @@ if (selected == "Loan Repayment Prediction"):
 if (selected == "breast cancer"):
     
     # page title
-    st.title("Predicting breast cancer using ML")
+    st.title("Predicting breast cancer using ML and Big Data")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
@@ -420,7 +420,7 @@ if (selected == "breast cancer"):
     parkinsons_diagnosis = ''
     
     # creating a button for Prediction    
-    if st.button("breast cancer "):
+    if st.button("breast cancer"):
         parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
         
         if (parkinsons_prediction[0] == 1):
