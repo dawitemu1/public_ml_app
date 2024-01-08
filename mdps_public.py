@@ -420,7 +420,7 @@ if (selected == "breast cancer"):
     parkinsons_diagnosis = ''
     
     # creating a button for Prediction    
-    if st.button("Loan Repayment status"):
+    if st.button("breast cancer "):
         parkinsons_prediction = parkinsons_model.predict([[fo, fhi, flo, Jitter_percent, Jitter_Abs, RAP, PPQ,DDP,Shimmer,Shimmer_dB,APQ3,APQ5,APQ,DDA,NHR,HNR,RPDE,DFA,spread1,spread2,D2,PPE]])                          
         
         if (parkinsons_prediction[0] == 1):
