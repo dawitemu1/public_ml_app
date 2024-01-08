@@ -344,7 +344,7 @@ if (selected == "Loan Repayment Prediction"):
 if (selected == "breast cancer"):
     
     # page title
-    st.title("Predicting breast cancer using ML and Big Data")
+    st.title("Predicting Breast Cancer using ML and Big Data analytics")
     
     col1, col2, col3, col4, col5 = st.columns(5)  
     
